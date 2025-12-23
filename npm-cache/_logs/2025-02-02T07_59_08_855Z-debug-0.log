@@ -1,0 +1,152 @@
+0 verbose cli E:\nodejs\node.exe C:\Users\khizg\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.0.0
+2 info using node@v20.17.0
+3 silly config load:file:C:\Users\khizg\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:E:\UKK\InfinityPlayground\.npmrc
+5 silly config load:file:C:\Users\khizg\.npmrc
+6 silly config load:file:C:\Users\khizg\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install framer-motion
+8 verbose argv "install" "framer-motion"
+9 verbose logfile logs-max:10 dir:E:\UKK\InfinityPlayground\npm-cache\_logs\2025-02-02T07_59_08_855Z-
+10 verbose logfile E:\UKK\InfinityPlayground\npm-cache\_logs\2025-02-02T07_59_08_855Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly idealTree buildDeps
+14 silly fetch manifest framer-motion@*
+15 silly packumentCache full:https://registry.npmjs.org/framer-motion cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/framer-motion 498ms (cache miss)
+17 silly packumentCache full:https://registry.npmjs.org/framer-motion set size:undefined disposed:false
+18 silly fetch manifest @emotion/is-prop-valid@*
+19 silly packumentCache full:https://registry.npmjs.org/@emotion%2fis-prop-valid cache-miss
+20 http fetch GET 200 https://registry.npmjs.org/@emotion%2fis-prop-valid 82ms (cache miss)
+21 silly packumentCache full:https://registry.npmjs.org/@emotion%2fis-prop-valid set size:undefined disposed:false
+22 silly fetch manifest react@^18.0.0 || ^19.0.0
+23 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+24 http fetch GET 200 https://registry.npmjs.org/react 318ms (cache updated)
+25 silly packumentCache full:https://registry.npmjs.org/react set size:undefined disposed:false
+26 silly fetch manifest react-dom@^18.0.0 || ^19.0.0
+27 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+28 http fetch GET 200 https://registry.npmjs.org/react-dom 304ms (cache miss)
+29 silly packumentCache full:https://registry.npmjs.org/react-dom set size:undefined disposed:false
+30 silly placeDep ROOT framer-motion@12.0.6 OK for:  want: *
+31 silly fetch manifest motion-dom@^12.0.0
+32 silly packumentCache full:https://registry.npmjs.org/motion-dom cache-miss
+33 silly fetch manifest motion-utils@^12.0.0
+34 silly packumentCache full:https://registry.npmjs.org/motion-utils cache-miss
+35 http fetch GET 200 https://registry.npmjs.org/motion-dom 76ms (cache miss)
+36 silly packumentCache full:https://registry.npmjs.org/motion-dom set size:undefined disposed:false
+37 http fetch GET 200 https://registry.npmjs.org/motion-utils 180ms (cache miss)
+38 silly packumentCache full:https://registry.npmjs.org/motion-utils set size:undefined disposed:false
+39 silly placeDep ROOT motion-dom@12.0.0 OK for: framer-motion@12.0.6 want: ^12.0.0
+40 silly placeDep ROOT motion-utils@12.0.0 OK for: framer-motion@12.0.6 want: ^12.0.0
+41 silly reify moves {}
+42 silly audit bulk request {
+42 silly audit   '@firebase/analytics': [ '0.10.11' ],
+42 silly audit   '@firebase/analytics-compat': [ '0.2.17' ],
+42 silly audit   '@firebase/analytics-types': [ '0.8.3' ],
+42 silly audit   '@firebase/app': [ '0.10.18' ],
+42 silly audit   '@firebase/app-check': [ '0.8.11' ],
+42 silly audit   '@firebase/app-check-compat': [ '0.3.18' ],
+42 silly audit   '@firebase/app-check-interop-types': [ '0.3.3' ],
+42 silly audit   '@firebase/app-check-types': [ '0.5.3' ],
+42 silly audit   '@firebase/app-compat': [ '0.2.48' ],
+42 silly audit   '@firebase/app-types': [ '0.9.3' ],
+42 silly audit   '@firebase/auth': [ '1.8.2' ],
+42 silly audit   '@firebase/auth-compat': [ '0.5.17' ],
+42 silly audit   '@firebase/auth-interop-types': [ '0.2.4' ],
+42 silly audit   '@firebase/auth-types': [ '0.12.3' ],
+42 silly audit   '@firebase/component': [ '0.6.12' ],
+42 silly audit   '@firebase/data-connect': [ '0.2.0' ],
+42 silly audit   '@firebase/database': [ '1.0.11' ],
+42 silly audit   '@firebase/database-compat': [ '2.0.2' ],
+42 silly audit   '@firebase/database-types': [ '1.0.8' ],
+42 silly audit   '@firebase/firestore': [ '4.7.6' ],
+42 silly audit   '@firebase/firestore-compat': [ '0.3.41' ],
+42 silly audit   '@firebase/firestore-types': [ '3.0.3' ],
+42 silly audit   '@firebase/functions': [ '0.12.1' ],
+42 silly audit   '@firebase/functions-compat': [ '0.3.18' ],
+42 silly audit   '@firebase/functions-types': [ '0.6.3' ],
+42 silly audit   '@firebase/installations': [ '0.6.12' ],
+42 silly audit   '@firebase/installations-compat': [ '0.2.12' ],
+42 silly audit   '@firebase/installations-types': [ '0.5.3' ],
+42 silly audit   '@firebase/logger': [ '0.4.4' ],
+42 silly audit   '@firebase/messaging': [ '0.12.16' ],
+42 silly audit   '@firebase/messaging-compat': [ '0.2.16' ],
+42 silly audit   '@firebase/messaging-interop-types': [ '0.2.3' ],
+42 silly audit   '@firebase/performance': [ '0.6.12' ],
+42 silly audit   '@firebase/performance-compat': [ '0.2.12' ],
+42 silly audit   '@firebase/performance-types': [ '0.2.3' ],
+42 silly audit   '@firebase/remote-config': [ '0.5.0' ],
+42 silly audit   '@firebase/remote-config-compat': [ '0.2.12' ],
+42 silly audit   '@firebase/remote-config-types': [ '0.4.0' ],
+42 silly audit   '@firebase/storage': [ '0.13.5' ],
+42 silly audit   '@firebase/storage-compat': [ '0.3.15' ],
+42 silly audit   '@firebase/storage-types': [ '0.8.3' ],
+42 silly audit   '@firebase/util': [ '1.10.3' ],
+42 silly audit   '@firebase/vertexai': [ '1.0.3' ],
+42 silly audit   '@firebase/webchannel-wrapper': [ '1.0.3' ],
+42 silly audit   '@grpc/grpc-js': [ '1.9.15' ],
+42 silly audit   '@grpc/proto-loader': [ '0.7.13' ],
+42 silly audit   '@protobufjs/aspromise': [ '1.1.2' ],
+42 silly audit   '@protobufjs/base64': [ '1.1.2' ],
+42 silly audit   '@protobufjs/codegen': [ '2.0.4' ],
+42 silly audit   '@protobufjs/eventemitter': [ '1.1.0' ],
+42 silly audit   '@protobufjs/fetch': [ '1.1.0' ],
+42 silly audit   '@protobufjs/float': [ '1.0.2' ],
+42 silly audit   '@protobufjs/inquire': [ '1.1.0' ],
+42 silly audit   '@protobufjs/path': [ '1.1.2' ],
+42 silly audit   '@protobufjs/pool': [ '1.1.0' ],
+42 silly audit   '@protobufjs/utf8': [ '1.1.0' ],
+42 silly audit   '@types/node': [ '22.12.0' ],
+42 silly audit   'ansi-regex': [ '5.0.1' ],
+42 silly audit   'ansi-styles': [ '4.3.0' ],
+42 silly audit   cliui: [ '8.0.1' ],
+42 silly audit   'color-convert': [ '2.0.1' ],
+42 silly audit   'color-name': [ '1.1.4' ],
+42 silly audit   'emoji-regex': [ '8.0.0' ],
+42 silly audit   escalade: [ '3.2.0' ],
+42 silly audit   'faye-websocket': [ '0.11.4' ],
+42 silly audit   firebase: [ '11.2.0' ],
+42 silly audit   'get-caller-file': [ '2.0.5' ],
+42 silly audit   'http-parser-js': [ '0.5.9' ],
+42 silly audit   idb: [ '7.1.1' ],
+42 silly audit   'is-fullwidth-code-point': [ '3.0.0' ],
+42 silly audit   'lodash.camelcase': [ '4.3.0' ],
+42 silly audit   long: [ '5.2.4' ],
+42 silly audit   protobufjs: [ '7.4.0' ],
+42 silly audit   'require-directory': [ '2.1.1' ],
+42 silly audit   'safe-buffer': [ '5.2.1' ],
+42 silly audit   'string-width': [ '4.2.3' ],
+42 silly audit   'strip-ansi': [ '6.0.1' ],
+42 silly audit   tslib: [ '2.8.1' ],
+42 silly audit   'undici-types': [ '6.20.0' ],
+42 silly audit   'websocket-driver': [ '0.7.4' ],
+42 silly audit   'websocket-extensions': [ '0.1.4' ],
+42 silly audit   'wrap-ansi': [ '7.0.0' ],
+42 silly audit   y18n: [ '5.0.8' ],
+42 silly audit   yargs: [ '17.7.2' ],
+42 silly audit   'yargs-parser': [ '21.1.1' ],
+42 silly audit   'framer-motion': [ '12.0.6' ],
+42 silly audit   'motion-dom': [ '12.0.0' ],
+42 silly audit   'motion-utils': [ '12.0.0' ]
+42 silly audit }
+43 http cache motion-dom@https://registry.npmjs.org/motion-dom/-/motion-dom-12.0.0.tgz 0ms (cache hit)
+44 http cache motion-utils@https://registry.npmjs.org/motion-utils/-/motion-utils-12.0.0.tgz 0ms (cache hit)
+45 http cache framer-motion@https://registry.npmjs.org/framer-motion/-/framer-motion-12.0.6.tgz 0ms (cache hit)
+46 silly tarball no local data for motion-dom@https://registry.npmjs.org/motion-dom/-/motion-dom-12.0.0.tgz. Extracting by manifest.
+47 silly tarball no local data for motion-utils@https://registry.npmjs.org/motion-utils/-/motion-utils-12.0.0.tgz. Extracting by manifest.
+48 silly tarball no local data for framer-motion@https://registry.npmjs.org/framer-motion/-/framer-motion-12.0.6.tgz. Extracting by manifest.
+49 http fetch GET 200 https://registry.npmjs.org/motion-dom/-/motion-dom-12.0.0.tgz 147ms (cache miss)
+50 http fetch GET 200 https://registry.npmjs.org/motion-utils/-/motion-utils-12.0.0.tgz 207ms (cache miss)
+51 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 233ms
+52 silly audit report {}
+53 http fetch GET 200 https://registry.npmjs.org/framer-motion/-/framer-motion-12.0.6.tgz 1236ms (cache miss)
+54 silly ADD node_modules/motion-utils
+55 silly ADD node_modules/motion-dom
+56 silly ADD node_modules/framer-motion
+57 verbose cwd E:\UKK\InfinityPlayground
+58 verbose os Windows_NT 10.0.22631
+59 verbose node v20.17.0
+60 verbose npm  v11.0.0
+61 verbose exit 0
+62 info ok

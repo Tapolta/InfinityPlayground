@@ -1,0 +1,96 @@
+0 verbose cli E:\nodejs\node.exe C:\Users\khizg\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.2
+2 info using node@v20.17.0
+3 silly config load:file:C:\Users\khizg\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\khizg\.npmrc
+5 silly config load:file:C:\Users\khizg\AppData\Roaming\npm\etc\npmrc
+6 verbose title npm install npm@11.0.0
+7 verbose argv "install" "--global" "npm@11.0.0"
+8 verbose logfile logs-max:10 dir:E:\UKK\InfinityPlayground\npm-cache\_logs\2025-01-29T15_27_30_984Z-
+9 verbose logfile E:\UKK\InfinityPlayground\npm-cache\_logs\2025-01-29T15_27_30_984Z-debug-0.log
+10 silly logfile done cleaning log files
+11 http fetch GET 200 https://registry.npmjs.org/npm 579ms (cache miss)
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly idealTree buildDeps
+14 silly fetch manifest npm@11.0.0
+15 silly packumentCache full:https://registry.npmjs.org/npm cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/npm 1334ms (cache miss)
+17 silly packumentCache full:https://registry.npmjs.org/npm set size:undefined disposed:false
+18 silly placeDep ROOT npm@11.0.0 OK for:  want: 11.0.0
+19 silly reify mark retired [
+19 silly reify   'C:\\Users\\khizg\\AppData\\Roaming\\npm\\node_modules\\npm',
+19 silly reify   'C:\\Users\\khizg\\AppData\\Roaming\\npm\\npm',
+19 silly reify   'C:\\Users\\khizg\\AppData\\Roaming\\npm\\npm.cmd',
+19 silly reify   'C:\\Users\\khizg\\AppData\\Roaming\\npm\\npm.ps1',
+19 silly reify   'C:\\Users\\khizg\\AppData\\Roaming\\npm\\npx',
+19 silly reify   'C:\\Users\\khizg\\AppData\\Roaming\\npm\\npx.cmd',
+19 silly reify   'C:\\Users\\khizg\\AppData\\Roaming\\npm\\npx.ps1'
+19 silly reify ]
+20 silly reify moves {
+20 silly reify   'C:\\Users\\khizg\\AppData\\Roaming\\npm\\node_modules\\npm': 'C:\\Users\\khizg\\AppData\\Roaming\\npm\\node_modules\\.npm-U89UC531',
+20 silly reify   'C:\\Users\\khizg\\AppData\\Roaming\\npm\\npm': 'C:\\Users\\khizg\\AppData\\Roaming\\npm\\.npm-kTbR7o2X',
+20 silly reify   'C:\\Users\\khizg\\AppData\\Roaming\\npm\\npm.cmd': 'C:\\Users\\khizg\\AppData\\Roaming\\npm\\.npm.cmd-279yVimv',
+20 silly reify   'C:\\Users\\khizg\\AppData\\Roaming\\npm\\npm.ps1': 'C:\\Users\\khizg\\AppData\\Roaming\\npm\\.npm.ps1-nRfFrx83',
+20 silly reify   'C:\\Users\\khizg\\AppData\\Roaming\\npm\\npx': 'C:\\Users\\khizg\\AppData\\Roaming\\npm\\.npx-JTEec5km',
+20 silly reify   'C:\\Users\\khizg\\AppData\\Roaming\\npm\\npx.cmd': 'C:\\Users\\khizg\\AppData\\Roaming\\npm\\.npx.cmd-UIz1fsBg',
+20 silly reify   'C:\\Users\\khizg\\AppData\\Roaming\\npm\\npx.ps1': 'C:\\Users\\khizg\\AppData\\Roaming\\npm\\.npx.ps1-ylExFf6G'
+20 silly reify }
+21 http cache npm@https://registry.npmjs.org/npm/-/npm-11.0.0.tgz 0ms (cache hit)
+22 silly tarball no local data for npm@https://registry.npmjs.org/npm/-/npm-11.0.0.tgz. Extracting by manifest.
+23 http fetch GET 200 https://registry.npmjs.org/npm/-/npm-11.0.0.tgz 9594ms (cache miss)
+24 silly CHANGE node_modules/npm
+25 silly CHANGE node_modules/npm/node_modules/@npmcli/metavuln-calculator
+26 silly REMOVE node_modules/npm/node_modules/@npmcli/metavuln-calculator/node_modules/pacote
+27 silly CHANGE node_modules/npm/node_modules/@npmcli/installed-package-contents
+28 silly CHANGE node_modules/npm/node_modules/@npmcli/config
+29 silly CHANGE node_modules/npm/node_modules/@npmcli/arborist
+30 silly CHANGE node_modules/npm/node_modules/walk-up-path
+31 silly CHANGE node_modules/npm/node_modules/which
+32 silly REMOVE node_modules/npm/node_modules/tuf-js/node_modules/@tufjs/models
+33 silly CHANGE node_modules/npm/node_modules/rimraf
+34 silly CHANGE node_modules/npm/node_modules/socks-proxy-agent
+35 silly CHANGE node_modules/npm/node_modules/qrcode-terminal
+36 silly REMOVE node_modules/npm/node_modules/sigstore/node_modules/@sigstore/verify
+37 silly REMOVE node_modules/npm/node_modules/sigstore/node_modules/@sigstore/sign
+38 silly REMOVE node_modules/npm/node_modules/sigstore/node_modules/@sigstore/core
+39 silly REMOVE node_modules/npm/node_modules/sigstore/node_modules/@sigstore/bundle
+40 silly CHANGE node_modules/npm/node_modules/semver
+41 silly CHANGE node_modules/npm/node_modules/p-map
+42 silly CHANGE node_modules/npm/node_modules/pacote
+43 silly CHANGE node_modules/npm/node_modules/nopt
+44 silly CHANGE node_modules/npm/node_modules/npm-packlist
+45 silly CHANGE node_modules/npm/node_modules/npm-package-arg
+46 silly CHANGE node_modules/npm/node_modules/libnpmpublish
+47 silly CHANGE node_modules/npm/node_modules/libnpmteam
+48 silly CHANGE node_modules/npm/node_modules/node-gyp
+49 silly CHANGE node_modules/npm/node_modules/node-gyp/node_modules/mkdirp
+50 silly CHANGE node_modules/npm/node_modules/mkdirp
+51 silly CHANGE node_modules/npm/node_modules/libnpmsearch
+52 silly CHANGE node_modules/npm/node_modules/libnpmversion
+53 silly CHANGE node_modules/npm/node_modules/libnpmpack
+54 silly CHANGE node_modules/npm/node_modules/libnpmorg
+55 silly REMOVE node_modules/npm/node_modules/libnpmhook
+56 silly CHANGE node_modules/npm/node_modules/libnpmdiff
+57 silly CHANGE node_modules/npm/node_modules/libnpmaccess
+58 silly CHANGE node_modules/npm/node_modules/libnpmexec
+59 silly CHANGE node_modules/npm/node_modules/libnpmfund
+60 silly CHANGE node_modules/npm/node_modules/init-package-json
+61 silly REMOVE node_modules/npm/node_modules/indent-string
+62 silly CHANGE node_modules/npm/node_modules/https-proxy-agent
+63 silly CHANGE node_modules/npm/node_modules/glob
+64 silly CHANGE node_modules/npm/node_modules/diff
+65 silly CHANGE node_modules/npm/node_modules/cross-spawn/node_modules/which
+66 silly CHANGE node_modules/npm/node_modules/binary-extensions
+67 silly REMOVE node_modules/npm/node_modules/aggregate-error
+68 silly CHANGE node_modules/npm/node_modules/debug
+69 silly CHANGE node_modules/npm/node_modules/cssesc
+70 silly REMOVE node_modules/npm/node_modules/clean-stack
+71 silly CHANGE node_modules/npm/node_modules/cacache/node_modules/mkdirp
+72 silly REMOVE node_modules/npm/node_modules/cacache/node_modules/p-map
+73 silly CHANGE node_modules/npm/node_modules/agent-base
+74 verbose cwd E:\UKK\InfinityPlayground
+75 verbose os Windows_NT 10.0.22631
+76 verbose node v20.17.0
+77 verbose npm  v10.9.2
+78 verbose exit 0
+79 info ok

@@ -1,0 +1,14 @@
+-bug diamond store Ketika pembeli tidak memiliki prodile
+-notif tidak muncul Ketika refresh tokens
+
+window.addEventListener("message", (event) => {
+        if (event.origin !== "http://localhost:3000") {
+          console.log("Pesan dari origin yang tidak dikenal, diabaikan.");
+          return;
+        }
+
+        const message = event.data;
+        tokens = message;
+        console.log(tokens)
+      }).catch((message) => {
+      })

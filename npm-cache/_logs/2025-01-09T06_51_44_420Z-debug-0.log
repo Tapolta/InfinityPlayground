@@ -1,0 +1,30 @@
+0 verbose cli E:\nodejs\node.exe C:\Users\khizg\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.2
+2 info using node@v20.17.0
+3 silly config load:file:C:\Users\khizg\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:E:\UKK\InfinityPlayground\.npmrc
+5 silly config load:file:C:\Users\khizg\.npmrc
+6 silly config load:file:C:\Users\khizg\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install swiper
+8 verbose argv "install" "swiper"
+9 verbose logfile logs-max:10 dir:E:\UKK\InfinityPlayground\npm-cache\_logs\2025-01-09T06_51_44_420Z-
+10 verbose logfile E:\UKK\InfinityPlayground\npm-cache\_logs\2025-01-09T06_51_44_420Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly idealTree buildDeps
+14 silly fetch manifest swiper@*
+15 silly packumentCache full:https://registry.npmjs.org/swiper cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/swiper 268ms (cache miss)
+17 silly packumentCache full:https://registry.npmjs.org/swiper set size:undefined disposed:false
+18 silly placeDep ROOT swiper@11.2.0 OK for:  want: *
+19 silly reify moves {}
+20 http cache swiper@https://registry.npmjs.org/swiper/-/swiper-11.2.0.tgz 0ms (cache hit)
+21 silly tarball no local data for swiper@https://registry.npmjs.org/swiper/-/swiper-11.2.0.tgz. Extracting by manifest.
+22 http fetch GET 200 https://registry.npmjs.org/swiper/-/swiper-11.2.0.tgz 457ms (cache miss)
+23 silly ADD node_modules/swiper
+24 verbose cwd E:\UKK\InfinityPlayground
+25 verbose os Windows_NT 10.0.22631
+26 verbose node v20.17.0
+27 verbose npm  v10.9.2
+28 verbose exit 0
+29 info ok
